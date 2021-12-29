@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "deprecated.qx.io.remote",
+    "summary": "The qx.io.remote namespace (<v7.0)",
+    "description": "",
+    "homepage": "http://www.qooxdoo.org",
+    "license": "MIT license",
+    "authors": [],
+    "version": "1.0.0"
+  },
+  "provides": {
+    "namespace": "qx.io.remote",
+    "encoding": "utf-8",
+    "class": "source/class",
+    "resource": "source/resource"
+  },
+  "requires": {
+    "@qooxdoo/framework": "^7.0.0-beta || ^7.0.0"
+  },
+  "$schema": "https://qooxdoo.org/schema/Manifest-1-0-0.json"
+}
