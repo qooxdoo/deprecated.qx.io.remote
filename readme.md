@@ -38,6 +38,8 @@ via an RPC-like interface. So this class will be especially interesting for
 providing a general interface that can be used in various places of the
 application code through a standard API.
 
+## Architecture
+
 On a technical level of data exchange with the server, the
 `qx.io.remote.tranport.*` classes implement different schemes.  Common features
 of these transport classes are collected in the
@@ -56,8 +58,6 @@ bound to the `qx.io.remote.Request#transport` `.transport` property of a
 Request, and takes care that the particular request is realized over the
 specific Transport. This allows you to accommodate a wide variety of transport
 options without overloading the Request object with the details.
-
-# Remote I/O over HTTP
 
 This system is (as everything else in Qooxdoo) completely event based. It
 currently supports communication by **XMLHttp**, **Iframes** or **Script**. The
