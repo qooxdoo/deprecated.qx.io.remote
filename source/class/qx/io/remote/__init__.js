@@ -1,4 +1,8 @@
 /**
+ * 
+ * @deprecated please use {@link qx.io.jsonrpc  qx.io.jsonrpc.*) instead
+ * 
+ * 
  * The qx.io.remote package provides classes for remote communication, i.e.
  * communication of the client with a server. Bear in mind that this usually
  * means communication with the server the client application was loaded from.
