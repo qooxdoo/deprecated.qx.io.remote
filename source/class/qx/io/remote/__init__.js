@@ -1,6 +1,6 @@
 /**
  *
- * @deprecated please use {@link qx.io.jsonrpc  qx.io.jsonrpc.*) instead
+ * <h1><b>DEPRECATED</b> please use {@link qx.io.jsonrpc} instead</h1> 
  *
  *
  * The qx.io.remote package provides classes for remote communication, i.e.
