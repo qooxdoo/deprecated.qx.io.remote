@@ -15,7 +15,7 @@
     "resource": "source/resource"
   },
   "requires": {
-    "@qooxdoo/framework": "^7.0.0"
+    "@qooxdoo/framework": "^7.0.0 || ^8.0.0-beta"
   },
   "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json"
 }
